@@ -4,7 +4,7 @@ import pandas as pd
 st.title("Hello guys")
 
 
-data = pd.read_csv('spam.csv')
+data = pd.read_csv('spam.csv', sep=',')
 
 
 st.dataframe(data.head())
