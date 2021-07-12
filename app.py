@@ -7,4 +7,4 @@ st.title("Hello guys")
 data = pd.read_csv('spam.csv')
 
 
- st.dataframe(data.head())
+st.dataframe(data.head())
